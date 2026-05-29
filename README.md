@@ -1,4 +1,4 @@
-# HTML-theoratical-QuestionsHTML Theoretical Questions — GitHub README
+HTML Theoretical Questions
 
 Q1. What is HTML and what is the difference between HTML and HTML5?
 
@@ -6,12 +6,11 @@ HTML (HyperText Markup Language) is the standard language used to create web pag
 
 HTML5 is the latest version of HTML. It introduced new semantic tags, multimedia support, and improved APIs for modern web development.
 
-Example:
+Example
 
 <video controls>
   <source src="movie.mp4" type="video/mp4">
 </video>
-
 
 ---
 
@@ -19,49 +18,36 @@ Q2. What are semantic HTML tags? Why are they important?
 
 Semantic tags clearly describe the meaning of the content inside them.
 
-Examples:
+Examples
 
-<header>
+- "<header>"
+- "<footer>"
+- "<article>"
+- "<section>"
+- "<nav>"
 
-<footer>
+Importance
 
-<article>
+- Improve readability of code
+- Help search engines understand content
+- Improve accessibility for screen readers
+- Make website structure organized
 
-<section>
-
-<nav>
-
-
-Importance:
-
-Improve readability of code
-
-Help search engines understand content
-
-Improve accessibility for screen readers
-
-Make website structure organized
-
-
-Example:
+Example
 
 <header>
   <h1>My Website</h1>
 </header>
 
-
 ---
 
-Q3. What is the difference between <div> and <span> tags?
+Q3. What is the difference between "<div>" and "<span>" tags?
 
-<div>	is a Block-level element	. It Takes full width and used for large sections
+Tag| Type| Usage
+"<div>"| Block-level element| Takes full width and used for large sections
+"<span>"| Inline element| Takes only needed width and used for small text styling
 
-<span> is an Inline element.
-Takes only needed width
-Used for small text styling.
-
-
-Example:
+Example
 
 <div>
   <p>This is inside div</p>
@@ -69,41 +55,33 @@ Example:
 
 <span style="color:red;">Red Text</span>
 
-
 ---
 
 Q4. Explain the difference between block-level and inline elements.
 
 Block-level Elements
 
-Start on a new line
-
-Take full width available
-
+- Start on a new line
+- Take full width available
 
 Examples:
-
-<div>, <p>, <h1>
+"<div>", "<p>", "<h1>"
 
 Inline Elements
 
-Do not start on a new line
-
-Take only necessary width
-
+- Do not start on a new line
+- Take only necessary width
 
 Examples:
-
-<span>, <a>, <strong>
-
+"<span>", "<a>", "<strong>"
 
 ---
 
 Q5. What is the purpose of the DOCTYPE declaration in HTML?
 
-The <!DOCTYPE html> declaration tells the browser that the document uses HTML5. It helps browsers rend pages correctly.
+The "<!DOCTYPE html>" declaration tells the browser that the document uses HTML5. It helps browsers render pages correctly.
 
-Example:
+Example
 
 <!DOCTYPE html>
 <html>
@@ -114,48 +92,36 @@ Example:
 </body>
 </html>
 
-
 ---
 
-Q6. What is the difference between id and class attributes?
+Q6. What is the difference between "id" and "class" attributes?
 
-id	class
+Attribute| Description
+"id"| Unique for one element and accessed with "#" in CSS
+"class"| Can be used on multiple elements and accessed with "." in CSS
 
-Id is Unique for one element
-And Accessed with # in CSS.
-
-Class Can be used on multiple elements
-And 	Accessed with . in CSS
-
-
-Example:
+Example
 
 <p id="title">Hello</p>
 
 <p class="text">Paragraph 1</p>
 <p class="text">Paragraph 2</p>
 
-
 ---
 
 Q7. How do you create a form in HTML? Which input types are commonly used?
 
-Forms are created using the <form> tag to collect user data.
+Forms are created using the "<form>" tag to collect user data.
 
-Common input types:
+Common Input Types
 
-text
+- "text"
+- "email"
+- "password"
+- "checkbox"
+- "submit"
 
-email
-
-password
-
-checkbox
-
-submit
-
-
-Example:
+Example
 
 <form>
   <input type="text" placeholder="Enter name">
@@ -164,125 +130,106 @@ Example:
   <input type="submit">
 </form>
 
-
 ---
 
 Q8. What are meta tags in HTML and why are they used?
 
 Meta tags provide information about a webpage to browsers and search engines.
 
-Uses:
+Uses
 
-Define character encoding
+- Define character encoding
+- Improve SEO
+- Control page responsiveness
 
-Improve SEO
-
-Control page responsiveness
-
-
-Example:
+Example
 
 <meta charset="UTF-8">
 <meta name="description" content="HTML Tutorial">
 
-
 ---
 
-Q9. Explain the purpose of the alt attribute in the <img> tag.
+Q9. Explain the purpose of the "alt" attribute in the "<img>" tag.
 
-The alt attribute provides alternative text for images.
+The "alt" attribute provides alternative text for images.
 
-Importance:
+Importance
 
-Helps visually impaired users using screen readers
+- Helps visually impaired users using screen readers
+- Displays text if image fails to load
+- Improves SEO
 
-Displays text if image fails to load
-
-Improves SEO
-
-
-Example:
+Example
 
 <img src="cat.jpg" alt="White cat sitting on sofa">
-
 
 ---
 
 Q10. How do you make an image clickable in HTML?
 
-You can make an image clickable by placing it inside an <a> tag.
+You can make an image clickable by placing it inside an "<a>" tag.
 
-Example:
+Example
 
 <a href="https://example.com">
   <img src="image.jpg" alt="Sample Image">
 </a>
 
-
 ---
 
 Q11. What is the difference between JPG, PNG, SVG, and WebP image formats?
 
-Format	Best Use
-
-JPG	Photos and compressed images
-PNG	Transparent images
-SVG	Vector graphics and logos
-WebP	Modern format with better compression
-
-
+Format| Best Use
+JPG| Photos and compressed images
+PNG| Transparent images
+SVG| Vector graphics and logos
+WebP| Modern format with better compression
 
 ---
 
-Q12. What are semantic tags introduced in HTML5 such as <header>, <footer>, <section>, and <article>?
+Q12. What are semantic tags introduced in HTML5 such as "<header>", "<footer>", "<section>", and "<article>"?
 
 These tags describe webpage structure clearly.
 
-<header> → Top section of page
+- "<header>" → Top section of page
+- "<footer>" → Bottom section
+- "<section>" → Groups related content
+- "<article>" → Independent content block
 
-<footer> → Bottom section
-
-<section> → Groups related content
-
-<article> → Independent content block
-
-
-Example:
+Example
 
 <article>
   <h2>Blog Title</h2>
   <p>Blog content...</p>
 </article>
 
-
 ---
 
-Q13. What is the difference between <script>, async, and defer in HTML?
+Q13. What is the difference between "<script>", "async", and "defer" in HTML?
 
-<script>
+"<script>"
 
 Loads and executes immediately.
 
-async
+"async"
 
 Downloads script in parallel and executes immediately after download.
 
-defer
+"defer"
 
 Downloads in parallel but executes after HTML parsing is complete.
 
-Example:
+Example
 
 <script src="app.js" defer></script>
-
 
 ---
 
 Q14. How do you embed audio and video in HTML5?
 
-HTML5 uses <audio> and <video> tags.
+HTML5 uses "<audio>" and "<video>" tags.
 
-Example:
+Example
 
 <audio controls>
   <source src="music.mp3" type="audio/mpeg">
@@ -292,39 +239,31 @@ Example:
   <source src="movie.mp4" type="video/mp4">
 </video>
 
-
 ---
 
 Q15. What is the difference between relative paths and absolute paths in HTML?
 
 Relative Path
 
-Points to a file relative to current folder.
-
-Example:
+Points to a file relative to the current folder.
 
 <img src="images/photo.jpg">
 
 Absolute Path
 
-Contains full URL.
-
-Example:
+Contains the full URL.
 
 <img src="https://example.com/photo.jpg">
 
-
 ---
 
-Q16. What are data attributes in HTML (data-*)? Where are they used?
+Q16. What are data attributes in HTML ("data-*")? Where are they used?
 
 Data attributes store custom information inside HTML elements.
 
-Example:
+Example
 
 <button data-id="101">Click</button>
-
-
 
 ---
 
@@ -332,34 +271,27 @@ Q17. What is the purpose of the viewport meta tag in responsive web design?
 
 The viewport meta tag controls how a webpage appears on mobile devices.
 
-Example:
+Example
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
 This helps websites adjust properly on different screen sizes.
 
-
 ---
 
 Q18. How can you improve SEO using HTML?
 
-Ways to improve SEO:
+Ways to Improve SEO
 
-Use semantic tags
+- Use semantic tags
+- Add proper headings ("<h1>" to "<h6>")
+- Use meaningful meta descriptions
+- Add alt text to images
+- Use clean URLs and readable content
 
-Add proper headings (<h1> to <h6>)
-
-Use meaningful meta descriptions
-
-Add alt text to images
-
-Use clean URLs and readable content
-
-
-Example:
+Example
 
 <meta name="description" content="Learn HTML basics">
-
 
 ---
 
@@ -367,38 +299,30 @@ Q19. What are accessibility best practices in HTML?
 
 Accessibility makes websites usable for everyone.
 
-Best practices:
+Best Practices
 
-Use semantic HTML
+- Use semantic HTML
+- Add alt text to images
+- Use labels for forms
+- Ensure keyboard navigation
+- Maintain proper color contrast
 
-Add alt text to images
-
-Use labels for forms
-
-Ensure keyboard navigation
-
-Maintain proper color contrast
-
-
-Example:
+Example
 
 <label for="email">Email</label>
 <input type="email" id="email">
 
-
 ---
 
-Q20. What is the difference between <strong> vs <b> and <em> vs <i> tags?
+Q20. What is the difference between "<strong>" vs "<b>" and "<em>" vs "<i>" tags?
 
-Tag	Meaning
+Tag| Meaning
+"<strong>"| Important text
+"<b>"| Bold text only
+"<em>"| Emphasized text
+"<i>"| Italic text only
 
-<strong>	Important text
-<b>	Bold text only
-<em>	Emphasized text
-<i>	Italic text only
-
-
-Example:
+Example
 
 <strong>Important</strong>
 <b>Bold</b>
